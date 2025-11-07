@@ -1,0 +1,280 @@
+[
+  {
+    "id": "q1_contact",
+    "keywords_en": ["contact", "number", "email", "address", "call", "reach", "how to contact", "phone", "location", "where are you located", "get in touch"],
+    "keywords_es": ["contacto", "numero", "telefono", "email", "correo", "llamar", "contactar", "ubicacion", "direccion", "donde estan", "como contactar"],
+    "question_en": "How can I contact ALCAR All Services Corp?",
+    "answer_en": "You can reach us by phone at **(239) 789-5187** or by email at **office@alcarallservices.com**. Our physical address is in Tampa, FL 33612.",
+    "question_es": "¿Cómo puedo contactar a ALCAR All Services Corp?",
+    "answer_es": "Puede contactarnos por teléfono al **(239) 789-5187** o por correo electrónico a **office@alcarallservices.com**. Nuestra dirección física se encuentra en Tampa, FL 33612."
+  },
+  {
+    "id": "q2_services",
+    "keywords_en": ["services", "offerings", "work", "what you do", "list of services", "types of jobs", "specialties"],
+    "keywords_es": ["servicios", "que hacen", "lista de servicios", "tipo de trabajo", "especialidades", "que ofrecen"],
+    "question_en": "What primary services does ALCAR All Services Corp offer?",
+    "answer_en": "We offer comprehensive Residential and Commercial Services, specializing in **Remodeling**, **Roofing**, **Drywall**, **Painting**, **Flooring** (tile and LVP), and **Cabinetry/Countertop installation**.",
+    "question_es": "¿Cuáles son los principales servicios que ofrece ALCAR All Services Corp?",
+    "answer_es": "Ofrecemos servicios integrales Residenciales y Comerciales, especializándonos en **Remodelación**, **Techado (Roofing)**, **Drywall**, **Pintura**, **Instalación de Pisos** (azulejos y LVP), e **Instalación de Gabinetes/Encimeras**."
+  },
+  {
+    "id": "q3_estimates",
+    "keywords_en": ["estimate", "quote", "cost", "price", "consultation", "free", "how much", "charge"],
+    "keywords_es": ["presupuesto", "costo", "precio", "cotización", "gratis", "consulta", "cuanto cobran"],
+    "question_en": "Do you offer free estimates or consultations?",
+    "answer_en": "Yes, we provide **Free Estimates** for all Residential and Commercial Services. Contact us to schedule an appointment.",
+    "question_es": "¿Ofrecen presupuestos o consultas gratuitas?",
+    "answer_es": "Sí, ofrecemos **Estimaciones Gratuitas** para todos nuestros servicios residenciales y comerciales. Contáctenos para programar una cita."
+  },
+  {
+    "id": "q4_experience",
+    "keywords_en": ["experience", "years", "expertise", "history", "since when", "how long"],
+    "keywords_es": ["experiencia", "años", "trayectoria", "antigüedad", "cuanto tiempo", "desde cuando"],
+    "question_en": "How much experience does ALCAR All Services Corp have?",
+    "answer_en": "We have **8 Years of Experience** providing high-quality craftsmanship and dependable service in the Tampa area.",
+    "question_es": "¿Cuánta experiencia tiene ALCAR All Services Corp?",
+    "answer_es": "Contamos con **8 Años de Experiencia** brindando mano de obra de alta calidad y un servicio confiable en el área de Tampa."
+  },
+  {
+    "id": "q5_coverage",
+    "keywords_en": ["coverage", "area", "distance", "miles", "locations", "serve", "radius", "how far"],
+    "keywords_es": ["cobertura", "area de servicio", "distancia", "ubicaciones", "hasta donde llegan", "radio"],
+    "question_en": "What is your service coverage area?",
+    "answer_en": "We cover a service radius of **50 Miles** from our location in Tampa, FL 33612.",
+    "question_es": "¿Cuál es su área de cobertura de servicio?",
+    "answer_es": "Cubrimos un radio de servicio de **50 Millas** desde nuestra ubicación en Tampa, FL 33612."
+  },
+  {
+    "id": "q6_payment",
+    "keywords_en": ["payment", "methods", "cash", "check", "credit card", "how to pay", "accepted payment"],
+    "keywords_es": ["pago", "metodos", "efectivo", "cheque", "tarjeta", "como pagar", "formas de pago"],
+    "question_en": "What forms of payment do you accept?",
+    "answer_en": "We currently accept **Check and Cash** as forms of payment for our services.",
+    "question_es": "¿Qué formas de pago aceptan?",
+    "answer_es": "Actualmente aceptamos **Cheque y Efectivo** como formas de pago por nuestros servicios."
+  },
+  {
+    "id": "q7_schedule",
+    "keywords_en": ["hours", "schedule", "availability", "days of week", "when are you open", "business hours"],
+    "keywords_es": ["horario", "abierto", "disponible", "dias de la semana", "horas de trabajo"],
+    "question_en": "What are your operating hours?",
+    "answer_en": "We are available from **Monday to Saturday**, between **6:00 AM – 6:00 PM**.",
+    "question_es": "¿Cuáles son sus horas de operación?",
+    "answer_es": "Estamos disponibles de **Lunes a Sábado**, entre las **6:00 AM – 6:00 PM**."
+  },
+  {
+    "id": "q8_remodeling_focus",
+    "keywords_en": ["remodel", "renovation", "kitchen", "bathroom", "upgrade", "full renovation", "home improvement"],
+    "keywords_es": ["remodelación", "renovación", "cocina", "baño", "mejorar", "proyecto completo", "renovar casa"],
+    "question_en": "Do you handle full home remodeling and renovation projects?",
+    "answer_en": "Yes, we specialize in comprehensive remodeling solutions, including full kitchen and bathroom renovations, tailored to enhance both the functionality and aesthetics of your space.",
+    "question_es": "¿Realizan proyectos completos de remodelación y renovación de viviendas?",
+    "answer_es": "Sí, nos especializamos en soluciones integrales de remodelación, incluidas renovaciones completas de cocinas y baños, diseñadas para mejorar tanto la funcionalidad como la estética de su espacio."
+  },
+  {
+    "id": "q9_roofing_focus",
+    "keywords_en": ["roof", "leaks", "repair", "installation", "shingles", "protection", "new roof", "roofing"],
+    "keywords_es": ["techo", "goteras", "reparación", "instalación", "tejas", "techado", "techo nuevo"],
+    "question_en": "Can you handle major roofing repairs and installations?",
+    "answer_en": "Absolutely. Our experienced professionals offer a full array of dependable roofing services, including inspections, installations, replacements, and repairs for both residential and commercial properties.",
+    "question_es": "¿Pueden realizar reparaciones e instalaciones importantes de techos?",
+    "answer_es": "Por supuesto. Nuestros profesionales experimentados ofrecen una gama completa de servicios de techado confiables, que incluyen inspecciones, instalaciones, reemplazos y reparaciones para propiedades residenciales y comerciales."
+  },
+  {
+    "id": "q10_other_services_summary",
+    "keywords_en": ["drywall", "painting", "texturing", "flooring", "tile", "cabinets", "baseboard", "vinyl plank", "countertop", "other services"],
+    "keywords_es": ["drywall", "pintura", "textura", "pisos", "azulejos", "gabinetes", "zócalos", "tablones de vinilo", "encimeras", "otros servicios"],
+    "question_en": "What other specific services do you provide?",
+    "answer_en": "In addition to remodeling and roofing, we expertly handle Drywall, Painting, Texturing, Baseboard installation, Floor tile installation, Luxury Vinyl Plank (LVP) installation, Bathroom tiling, Kitchen Cabinetry installation, and Countertop installation.",
+    "question_es": "¿Qué otros servicios específicos ofrecen?",
+    "answer_es": "Además de la remodelación y el techado, manejamos de manera experta Drywall, Pintura, Texturizado, Instalación de Zócalos, Instalación de Azulejos, Instalación de Planchas de Vinilo de Lujo (LVP), Azulejos para Baños, Instalación de Gabinetes de Cocina e Instalación de Encimeras."
+  },
+  {
+    "id": "q11_commercial_services",
+    "keywords_en": ["commercial", "business", "office", "store", "restaurant", "residential vs commercial"],
+    "keywords_es": ["comercial", "negocio", "oficina", "tienda", "restaurante", "residencial y comercial"],
+    "question_en": "Do you provide services for commercial properties?",
+    "answer_en": "Yes, ALCAR All Services Corp offers specialized services for both residential and commercial properties, covering remodeling, roofing, and general maintenance needs.",
+    "question_es": "¿Ofrecen servicios para propiedades comerciales?",
+    "answer_es": "Sí, ALCAR All Services Corp ofrece servicios especializados tanto para propiedades residenciales como comerciales, cubriendo necesidades de remodelación, techado y mantenimiento general."
+  },
+  {
+    "id": "q12_insurance_licensing",
+    "keywords_en": ["insurance", "licensed", "insured", "liability", "worker's comp", "license number", "bonded"],
+    "keywords_es": ["seguro", "licencia", "asegurado", "responsabilidad", "licencia de contratista", "fianzas"],
+    "question_en": "Is ALCAR All Services Corp licensed and insured?",
+    "answer_en": "Yes, we are a fully licensed and insured company to ensure compliance and peace of mind for all our projects in Florida.",
+    "question_es": "¿ALCAR All Services Corp tiene licencia y está asegurada?",
+    "answer_es": "Sí, somos una empresa con licencia y seguro completo para garantizar el cumplimiento y la tranquilidad en todos nuestros proyectos en Florida."
+  },
+  {
+    "id": "q13_warranty_guarantee",
+    "keywords_en": ["warranty", "guarantee", "labor", "workmanship", "materials", "defects"],
+    "keywords_es": ["garantía", "labor", "materiales", "defecto", "respaldo", "tiempo de garantía"],
+    "question_en": "Do you offer a warranty on your workmanship?",
+    "answer_en": "We stand by the quality of our craftsmanship and provide guarantees on our labor. Specific warranty details are discussed and included in your project contract.",
+    "question_es": "¿Ofrecen garantía en su mano de obra?",
+    "answer_es": "Respaldamos la calidad de nuestra mano de obra y ofrecemos garantías en nuestro trabajo. Los detalles específicos de la garantía se discuten e incluyen en el contrato de su proyecto."
+  },
+  {
+    "id": "q14_remodeling_kitchen",
+    "keywords_en": ["kitchen remodel", "cabinets", "appliances", "design", "layout", "cooking space"],
+    "keywords_es": ["remodelación de cocina", "gabinetes", "electrodomésticos", "diseño", "distribución", "espacio de cocina"],
+    "question_en": "What is involved in your kitchen remodeling services?",
+    "answer_en": "Our kitchen remodeling services include conceptual design, demolition, electrical and plumbing work, new cabinetry and countertop installation, backsplash tiling, and final fixture installation to create a modern and functional space.",
+    "question_es": "¿Qué implican sus servicios de remodelación de cocinas?",
+    "answer_es": "Nuestros servicios de remodelación de cocinas incluyen diseño conceptual, demolición, trabajos eléctricos y de plomería, instalación de gabinetes y encimeras nuevas, azulejos para salpicaduras y la instalación final de accesorios para crear un espacio moderno y funcional."
+  },
+  {
+    "id": "q15_remodeling_bathroom",
+    "keywords_en": ["bathroom remodel", "shower", "tub", "vanity", "tile work", "spa", "luxurious"],
+    "keywords_es": ["remodelación de baño", "ducha", "tina", "vanidad", "trabajo de azulejos", "lujoso", "tipo spa"],
+    "question_en": "Can you create a luxurious, spa-like bathroom retreat?",
+    "answer_en": "Yes, we specialize in luxurious bathroom renovations that incorporate modern tiling, custom vanities, walk-in showers, and high-quality fixtures to offer a complete spa-like retreat.",
+    "question_es": "¿Pueden crear un baño de lujo con ambiente de spa?",
+    "answer_es": "Sí, nos especializamos en renovaciones de baños de lujo que incorporan azulejos modernos, tocadores personalizados, duchas a ras de suelo e instalaciones de alta calidad para ofrecer un completo refugio estilo spa."
+  },
+  {
+    "id": "q16_remodeling_design_help",
+    "keywords_en": ["design", "help", "ideas", "color selection", "material choice", "consultant"],
+    "keywords_es": ["diseño", "ayuda", "ideas", "selección de color", "elección de material", "consultoría"],
+    "question_en": "Do you help with design and material selection for remodeling projects?",
+    "answer_en": "Absolutely. We offer personalized guidance throughout the design and material selection process to ensure the final result reflects your unique preferences and style while blending beauty and practicality.",
+    "question_es": "¿Ayudan con el diseño y la selección de materiales para los proyectos de remodelación?",
+    "answer_es": "Absolutamente. Ofrecemos orientación personalizada durante el proceso de selección de diseño y materiales para asegurar que el resultado final refleje sus preferencias y estilo únicos, combinando belleza y practicidad."
+  },
+  {
+    "id": "q17_remodeling_timeline",
+    "keywords_en": ["timeline", "duration", "how long", "project length", "estimated time", "finish date"],
+    "keywords_es": ["plazo", "duración", "cuánto tiempo", "tiempo estimado", "fecha de finalización", "proyectos grandes"],
+    "question_en": "How long does a typical remodeling project take?",
+    "answer_en": "The duration varies greatly depending on the scope (e.g., kitchen vs. minor repair). We provide a detailed project schedule with estimated timelines during the consultation phase for complete transparency.",
+    "question_es": "¿Cuánto tarda un proyecto de remodelación típico?",
+    "answer_es": "La duración varía mucho dependiendo del alcance (ej., cocina vs. reparación menor). Proporcionamos un cronograma de proyecto detallado con plazos estimados durante la fase de consulta para una transparencia total."
+  },
+  {
+    "id": "q18_roofing_inspections",
+    "keywords_en": ["inspection", "check roof", "assess damage", "leak detection", "roof status"],
+    "keywords_es": ["inspección", "revisar techo", "evaluar daño", "detección de fugas", "estado del techo"],
+    "question_en": "Do you provide detailed roof inspection services?",
+    "answer_en": "Yes, we conduct comprehensive roof inspections to identify potential problems, assess existing damage, and recommend the most effective repair or replacement solutions.",
+    "question_es": "¿Ofrecen servicios detallados de inspección de techos?",
+    "answer_es": "Sí, realizamos inspecciones exhaustivas de techos para identificar problemas potenciales, evaluar daños existentes y recomendar las soluciones de reparación o reemplazo más efectivas."
+  },
+  {
+    "id": "q19_roofing_materials",
+    "keywords_en": ["materials", "shingle types", "flat roof", "metal roof", "tile roof", "best material"],
+    "keywords_es": ["materiales", "tipos de tejas", "techo plano", "techo de metal", "techo de teja", "mejor material"],
+    "question_en": "What types of roofing materials do you work with?",
+    "answer_en": "We work with a variety of high-quality materials, including asphalt shingles, metal roofing, and tile, ensuring your roof is durable and enhances your home's curb appeal.",
+    "question_es": "¿Con qué tipos de materiales de techado trabajan?",
+    "answer_es": "Trabajamos con una variedad de materiales de alta calidad, incluyendo tejas de asfalto, techos de metal y tejas, asegurando que su techo sea duradero y mejore el atractivo exterior de su hogar."
+  },
+  {
+    "id": "q20_roofing_emergency",
+    "keywords_en": ["emergency", "leak", "storm damage", "urgent repair", "immediate roof fix"],
+    "keywords_es": ["emergencia", "fuga", "daños por tormenta", "reparación urgente", "solucion inmediata"],
+    "question_en": "Do you offer emergency roofing repair services?",
+    "answer_en": "While we operate during regular business hours (Mon-Sat, 6:00 AM – 6:00 PM), we prioritize urgent repair needs for storm damage or active leaks. Please call us immediately.",
+    "question_es": "¿Ofrecen servicios de reparación de techos de emergencia?",
+    "answer_es": "Si bien operamos durante el horario comercial regular (Lun-Sáb, 6:00 AM – 6:00 PM), priorizamos las necesidades de reparación urgentes por daños por tormenta o fugas activas. Llámenos de inmediato."
+  },
+  {
+    "id": "q21_roofing_replacement",
+    "keywords_en": ["replacement", "new roof", "full installation", "roofing lifespan", "old roof"],
+    "keywords_es": ["reemplazo", "techo nuevo", "instalación completa", "vida útil del techo", "techo viejo"],
+    "question_en": "When should I consider a full roof replacement instead of a repair?",
+    "answer_en": "A full replacement is recommended when the roof is near the end of its lifespan (typically 20-30 years) or when damage is widespread (over 25% of the roof area). We'll advise you during the inspection.",
+    "question_es": "¿Cuándo debo considerar un reemplazo completo del techo en lugar de una reparación?",
+    "answer_es": "Se recomienda un reemplazo completo cuando el techo está cerca del final de su vida útil (generalmente 20-30 años) o cuando el daño está muy extendido (más del 25% del área del techo). Le aconsejaremos durante la inspección."
+  },
+  {
+    "id": "q22_drywall_repair",
+    "keywords_en": ["drywall repair", "hole in wall", "patch", "installation", "sheetrock", "water damage drywall"],
+    "keywords_es": ["reparación de drywall", "agujero en pared", "parche", "instalación de sheetrock", "daño por agua en pared"],
+    "question_en": "Do you only install new drywall, or do you handle repairs as well?",
+    "answer_en": "We handle all aspects of drywall, including minor patches, repair of water damage, and full installation for new construction or remodels, ensuring a smooth, seamless finish.",
+    "question_es": "¿Solo instalan drywall nuevo o también se encargan de las reparaciones?",
+    "answer_es": "Manejamos todos los aspectos del drywall, incluyendo parches menores, reparación de daños por agua e instalación completa para construcciones nuevas o remodelaciones, garantizando un acabado liso y uniforme."
+  },
+  {
+    "id": "q23_painting_scope",
+    "keywords_en": ["interior painting", "exterior painting", "full house paint", "trim", "repaint", "paint colors"],
+    "keywords_es": ["pintura interior", "pintura exterior", "pintar casa completa", "molduras", "repintar", "colores de pintura"],
+    "question_en": "Are your painting services limited to interiors?",
+    "answer_en": "No, our painting services cover both interior spaces and exterior facades. We handle surface preparation, priming, color consultation, and finishing coats for a lasting result.",
+    "question_es": "¿Sus servicios de pintura se limitan a interiores?",
+    "answer_es": "No, nuestros servicios de pintura cubren tanto espacios interiores como fachadas exteriores. Nos encargamos de la preparación de la superficie, imprimación, consulta de color y capas de acabado para un resultado duradero."
+  },
+  {
+    "id": "q24_texturing_matching",
+    "keywords_en": ["texturing", "texture matching", "popcorn ceiling", "smooth wall", "knockdown texture", "wall finishing"],
+    "keywords_es": ["texturizado", "emparejar textura", "techo de palomitas", "pared lisa", "textura knockdown", "acabado de pared"],
+    "question_en": "Can you match existing wall or ceiling textures during a repair?",
+    "answer_en": "Yes, our team is skilled in various texturing techniques, including smooth, knockdown, and orange peel, and we focus on accurately matching existing textures to make repairs invisible.",
+    "question_es": "¿Pueden igualar texturas de pared o techo existentes durante una reparación?",
+    "answer_es": "Sí, nuestro equipo está capacitado en varias técnicas de texturizado, incluyendo liso, *knockdown* y piel de naranja, y nos enfocamos en igualar con precisión las texturas existentes para hacer invisibles las reparaciones."
+  },
+  {
+    "id": "q25_baseboard_trim",
+    "keywords_en": ["baseboard", "trim", "molding", "crown molding", "install trim", "casing"],
+    "keywords_es": ["zócalo", "moldura", "cornisa", "instalar molduras", "rodapié"],
+    "question_en": "Do you install baseboards and other decorative trim?",
+    "answer_en": "We expertly handle the professional installation of all types of baseboards, crown molding, and decorative trim to complete your room's aesthetic.",
+    "question_es": "¿Instalan zócalos y otras molduras decorativas?",
+    "answer_es": "Manejamos con experiencia la instalación profesional de todo tipo de zócalos, molduras de techo y molduras decorativas para completar la estética de su habitación."
+  },
+  {
+    "id": "q26_flooring_tile_types",
+    "keywords_en": ["tile", "ceramic", "porcelain", "floor tile", "wall tile", "grout", "tile removal"],
+    "keywords_es": ["azulejo", "baldosa", "cerámica", "porcelanato", "piso de azulejo", "lechada", "remover azulejo"],
+    "question_en": "What kinds of tile installation do you perform?",
+    "answer_en": "We install all types of floor and wall tile, including ceramic and porcelain, in kitchens, bathrooms, and other high-traffic areas, ensuring proper subfloor preparation and grouting.",
+    "question_es": "¿Qué tipos de instalación de azulejos realizan?",
+    "answer_es": "Instalamos todo tipo de azulejos para pisos y paredes, incluyendo cerámica y porcelanato, en cocinas, baños y otras áreas de alto tráfico, asegurando una preparación adecuada del subsuelo y lechada."
+  },
+  {
+    "id": "q27_flooring_lvp",
+    "keywords_en": ["LVP", "Luxury Vinyl Plank", "vinyl flooring", "waterproof floor", "floating floor", "LVT"],
+    "keywords_es": ["LVP", "Plancha de Vinilo de Lujo", "piso de vinilo", "piso impermeable", "piso flotante"],
+    "question_en": "Why should I choose Luxury Vinyl Plank (LVP) flooring?",
+    "answer_en": "LVP is an excellent choice for its durability, waterproof nature, and aesthetic versatility, often mimicking the look of hardwood or stone. We provide expert, seamless installation.",
+    "question_es": "¿Por qué debería elegir el piso de Plancha de Vinilo de Lujo (LVP)?",
+    "answer_es": "El LVP es una excelente opción por su durabilidad, naturaleza impermeable y versatilidad estética, a menudo imitando la apariencia de madera dura o piedra. Ofrecemos una instalación experta y sin costuras."
+  },
+  {
+    "id": "q28_flooring_bathroom_tile",
+    "keywords_en": ["bathroom tile", "shower pan", "wet area tile", "bathroom floor", "shower wall"],
+    "keywords_es": ["azulejo de baño", "piso de ducha", "área húmeda", "pared de ducha", "impermeabilización"],
+    "question_en": "Do your services include specialized bathroom tiling and waterproofing?",
+    "answer_en": "Yes, our bathroom tiling services include shower surrounds, shower pan installation, and the critical step of proper waterproofing for all wet areas to prevent future damage.",
+    "question_es": "¿Sus servicios incluyen alicatado e impermeabilización de baños especializados?",
+    "answer_es": "Sí, nuestros servicios de alicatado de baños incluyen el revestimiento de duchas, la instalación de platos de ducha y el paso crítico de la impermeabilización adecuada para todas las áreas húmedas para prevenir daños futuros."
+  },
+  {
+    "id": "q29_cabinetry_installation",
+    "keywords_en": ["cabinetry", "kitchen cabinets", "vanity installation", "cabinet upgrade", "install cabinets", "hardware"],
+    "keywords_es": ["gabinetes", "muebles de cocina", "instalación de gabinetes", "actualizar gabinetes", "herrajes", "instalación de vanidades"],
+    "question_en": "What kind of kitchen cabinetry installation services do you offer?",
+    "answer_en": "We provide professional installation for both custom and pre-fabricated kitchen and bathroom cabinetry, focusing on precise alignment, secure mounting, and proper hardware installation.",
+    "question_es": "¿Qué tipo de servicios de instalación de gabinetes de cocina ofrecen?",
+    "answer_es": "Ofrecemos instalación profesional para gabinetes de cocina y baño, tanto personalizados como prefabricados, centrándonos en la alineación precisa, el montaje seguro y la correcta instalación de herrajes."
+  },
+  {
+    "id": "q30_countertop_materials",
+    "keywords_en": ["countertop", "kitchen counter", "granite", "quartz", "laminate", "install counter", "vanity top"],
+    "keywords_es": ["encimera", "mostrador de cocina", "granito", "cuarzo", "laminado", "instalar encimera", "cubierta de vanidad"],
+    "question_en": "Do you install all types of countertop materials?",
+    "answer_en": "Yes, we handle the installation of various countertop materials, including laminate, solid surface, granite, and quartz, ensuring a precise fit and finish for your kitchen or bathroom.",
+    "answer_es": "Sí, manejamos la instalación de diversos materiales de encimera, incluyendo laminado, superficie sólida, granito y cuarzo, asegurando un ajuste y acabado preciso para su cocina o baño."
+  },
+  {
+    "id": "q31_starting_project",
+    "keywords_en": ["start project", "get started", "initial step", "process", "first contact", "how to hire"],
+    "keywords_es": ["empezar proyecto", "primer paso", "proceso", "cómo contratar", "contacto inicial"],
+    "question_en": "What is the first step to starting a project with you?",
+    "answer_en": "The first step is to contact us by phone or email to discuss your project needs. We will then schedule a free estimate and consultation to understand your vision and provide a detailed quote.",
+    "question_es": "¿Cuál es el primer paso para comenzar un proyecto con ustedes?",
+    "answer_es": "El primer paso es contactarnos por teléfono o correo electrónico para discutir las necesidades de su proyecto. Luego programaremos una estimación y consulta gratuitas para entender su visión y proporcionar una cotización detallada."
+  }
+]

@@ -1,0 +1,44 @@
+/*
+escondemos los botones de radio
+*/
+input[type="radio"] {
+  display: none;
+}
+
+/*
+damos un color gris a las estrellas, y un tamaño de 28px
+*/
+label {
+  color:#fff;
+}
+label i{
+  font-size: 28px!important;
+}
+
+/*
+La propiedad direction: rtl; cambia la dirección de escritura  de derecha a izquierda ( right to left ). La otra propiedad unicode-bidi ( bidi de bidireccional ) se utiliza junto con la propiedad direction para cambiar  la dirección del texto.
+*/
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+/*
+También cambian de color todas las etiquetas <label> precedidas ( ~ ) por aquella <label> que tiene el ratón encima ( hover )
+*/
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+/*
+Al marcar el botón de radio ( radio:checked ) todas las etiquetas <label> que le preceden ( ~ ) se vuelven color naranja
+*/
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+/*
+Damos a las estrellas color naranja al momento de mostrarse
+*/
+.starColor i{color: orange!important;}
