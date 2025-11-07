@@ -1,0 +1,141 @@
+[
+    {
+        "id": "company_overview",
+        "question": {
+            "en": "Who is ALCAR All Services Corp?",
+            "es": "¿Quién es ALCAR All Services Corp?"
+        },
+        "answer": {
+            "en": "ALCAR All Services Corp is based in Tampa,FL 33612 and is dedicated to delivering reliable residential and commercial solutions. ALCAR All Services Corp is a dedicated provider of comprehensive home improvement services, including remodeling and roofing. Our mission is to enhance your living spaces while prioritizing customer satisfaction and quality results. With a team of skilled professionals, we leverage our extensive knowledge and expertis…",
+            "es": "ALCAR All Services Corp es una empresa ubicada en Tampa,FL 33612 que ofrece soluciones integrales para hogares y negocios. Nuestro equipo combina atención al detalle y asesoría personalizada en cada proyecto."
+        },
+        "tags": {
+            "en": [
+                "about",
+                "company",
+                "overview"
+            ],
+            "es": [
+                "empresa",
+                "sobre nosotros",
+                "quiénes somos"
+            ]
+        }
+    },
+    {
+        "id": "mission",
+        "question": {
+            "en": "What is the mission of ALCAR All Services Corp?",
+            "es": "¿Cuál es la misión de ALCAR All Services Corp?"
+        },
+        "answer": {
+            "en": "Our mission is to transform homes with transparent communication and tailored solutions. Building a foundation of trust and excellence, ALCAR All Services Corp takes pride in transforming homes across Tampa, FL. With over eight years of industry experience, our talented team is dedicated to delivering quality craftsmanship and exceptional service in every project. We understand that each client’s needs ar…",
+            "es": "Nuestra misión es transformar los espacios de nuestros clientes a través de una comunicación transparente, acompañamiento cercano y resultados que superan las expectativas."
+        },
+        "tags": {
+            "en": [
+                "mission",
+                "vision"
+            ],
+            "es": [
+                "misión",
+                "visión"
+            ]
+        }
+    },
+    {
+        "id": "services",
+        "question": {
+            "en": "What services does ALCAR All Services Corp provide?",
+            "es": "¿Qué servicios ofrece ALCAR All Services Corp?"
+        },
+        "answer": {
+            "en": "ALCAR All Services Corp provides Residential and Commercial Services. Key solutions include: Remodeling, Roofing. Our crew combines technical expertise and attention to detail through every stage of the project.",
+            "es": "ALCAR All Services Corp ofrece Residential and Commercial Services. Principales soluciones: Remodeling, Roofing. Nuestro equipo combina experiencia técnica y atención al detalle para cada etapa del proyecto."
+        },
+        "tags": {
+            "en": [
+                "services",
+                "offer",
+                "solutions",
+                "remodeling",
+                "roofing"
+            ],
+            "es": [
+                "servicios",
+                "ofrecen",
+                "soluciones",
+                "remodeling",
+                "roofing"
+            ]
+        }
+    },
+    {
+        "id": "contact",
+        "question": {
+            "en": "How can I contact ALCAR All Services Corp?",
+            "es": "¿Cómo puedo contactar a ALCAR All Services Corp?"
+        },
+        "answer": {
+            "en": "You can call us at (239) 789-5187 or email us at office@alcarllservices.com for more information or to request your project.",
+            "es": "Puedes llamarnos al (239) 789-5187 o escribirnos a office@alcarllservices.com para solicitar más información o tu proyecto."
+        },
+        "tags": {
+            "en": [
+                "contact",
+                "phone",
+                "email"
+            ],
+            "es": [
+                "contacto",
+                "teléfono",
+                "correo"
+            ]
+        }
+    },
+    {
+        "id": "availability",
+        "question": {
+            "en": "What are the service hours and coverage?",
+            "es": "¿Cuál es el horario y la cobertura del servicio?"
+        },
+        "answer": {
+            "en": "We are available Monday to Saturday 6:00AM – 6:00PM and we proudly cover We Cover 50 Miles.",
+            "es": "Estamos disponibles Monday to Saturday 6:00AM – 6:00PM y cubrimos con orgullo We Cover 50 Miles."
+        },
+        "tags": {
+            "en": [
+                "hours",
+                "schedule",
+                "coverage"
+            ],
+            "es": [
+                "horario",
+                "cobertura"
+            ]
+        }
+    },
+    {
+        "id": "experience",
+        "question": {
+            "en": "Why choose ALCAR All Services Corp?",
+            "es": "¿Por qué elegir a ALCAR All Services Corp?"
+        },
+        "answer": {
+            "en": "ALCAR All Services Corp brings 8 Years of Experience. We also provide Free Estimates Are Available and accept Check and Cash.",
+            "es": "ALCAR All Services Corp cuenta con 8 Years of Experience. También ofrecemos Free Estimates Are Available y aceptamos Check and Cash."
+        },
+        "tags": {
+            "en": [
+                "experience",
+                "years",
+                "benefits"
+            ],
+            "es": [
+                "experiencia",
+                "años",
+                "beneficios"
+            ]
+        }
+    }
+]
