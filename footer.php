@@ -88,7 +88,7 @@
             </div>
         </div>
     </div>
-    <?php include 'chatbot.php'; ?>
+    <?php include 'chatbot/chatbot-ui.php'; ?>
 </footer>
 
 <!--<< All JS Plugins >>-->
