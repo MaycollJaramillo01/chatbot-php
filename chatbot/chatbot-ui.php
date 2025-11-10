@@ -4,35 +4,30 @@ $companyInitials = strtoupper(substr(preg_replace('/[^A-Za-z]/', '', $Company), 
 ?>
 <link rel="stylesheet" href="chatbot/chatbot.css">
 
-<button id="chatbot-assistant-button" type="button" aria-haspopup="dialog" aria-controls="chatbot-overlay" aria-expanded="false">
-    <span class="icon">🤖</span>
-    <span>Asistente</span>
+<button id="chatbot-launcher" type="button" aria-haspopup="dialog" aria-controls="chatbot-widget" aria-expanded="false" aria-label="Abrir asistente">
+    <span aria-hidden="true">💬</span>
 </button>
 
-<div id="chatbot-overlay" role="dialog" aria-modal="true" aria-hidden="true">
-    <div class="chatbot-modal">
+<div id="chatbot-widget" class="chatbot-widget" role="dialog" aria-modal="false" aria-hidden="true">
+    <div class="chatbot-card">
         <header class="chatbot-header">
-            <div class="info">
-                <div class="logo" aria-hidden="true"><?php echo htmlspecialchars($companyInitials, ENT_QUOTES, 'UTF-8'); ?></div>
-                <div class="text">
-                    <span><?php echo htmlspecialchars($Company, ENT_QUOTES, 'UTF-8'); ?></span>
-                    <span>Virtual Assistant</span>
-                </div>
+            <div class="avatar" aria-hidden="true"><?php echo htmlspecialchars($companyInitials, ENT_QUOTES, 'UTF-8'); ?></div>
+            <div class="title-block">
+                <span class="subtitle" id="chatbot-header-subtitle">¿Quieres escalar tu negocio?</span>
+                <span class="headline" id="chatbot-header-headline">Comparte tus datos de contacto</span>
             </div>
-            <button class="chatbot-close" type="button" aria-label="Cerrar">&times;</button>
+            <button class="chatbot-toggle" type="button" aria-label="Minimizar asistente" id="chatbot-toggle">
+                <span aria-hidden="true">⌄</span>
+            </button>
         </header>
         <div class="chatbot-body">
             <form id="chatbot-intro-form" autocomplete="off">
-                <div>
-                    <label class="sr-only" for="chatbot-name">Nombre</label>
-                    <input id="chatbot-name" name="name" type="text" placeholder="Tu nombre" required>
-                </div>
-                <div>
-                    <label class="sr-only" for="chatbot-phone">Teléfono</label>
-                    <input id="chatbot-phone" name="phone" type="tel" placeholder="Tu teléfono" required>
-                </div>
-                <div id="chatbot-form-error" role="alert" style="display:none;color:#ffb4b4;font-size:0.85rem;"></div>
-                <button type="submit">Comenzar chat</button>
+                <label for="chatbot-name">Nombre</label>
+                <input id="chatbot-name" name="name" type="text" placeholder="Tu nombre" required>
+                <label for="chatbot-phone">Teléfono</label>
+                <input id="chatbot-phone" name="phone" type="tel" placeholder="Tu teléfono" required>
+                <div id="chatbot-form-error" role="alert" style="display:none;"></div>
+                <button type="submit">Enviar</button>
             </form>
             <div class="chatbot-chat-wrapper" id="chatbot-chat" aria-live="polite">
                 <div class="chatbot-messages" id="chatbot-messages"></div>
@@ -52,9 +47,9 @@ $companyInitials = strtoupper(substr(preg_replace('/[^A-Za-z]/', '', $Company), 
 
 <script>
 (function() {
-    const overlay = document.getElementById('chatbot-overlay');
-    const openButton = document.getElementById('chatbot-assistant-button');
-    const closeButton = document.querySelector('.chatbot-close');
+    const widget = document.getElementById('chatbot-widget');
+    const launcher = document.getElementById('chatbot-launcher');
+    const toggleButton = document.getElementById('chatbot-toggle');
     const introForm = document.getElementById('chatbot-intro-form');
     const formError = document.getElementById('chatbot-form-error');
     const chatWrapper = document.getElementById('chatbot-chat');
@@ -64,46 +59,69 @@ $companyInitials = strtoupper(substr(preg_replace('/[^A-Za-z]/', '', $Company), 
     const typingLabel = document.getElementById('chatbot-typing-label');
     const messageInput = document.getElementById('chatbot-input');
     const sendButton = document.getElementById('chatbot-send');
+    const headerSubtitle = document.getElementById('chatbot-header-subtitle');
+    const headerHeadline = document.getElementById('chatbot-header-headline');
+
+    const nameField = document.getElementById('chatbot-name');
+    const phoneField = document.getElementById('chatbot-phone');
 
     let currentLanguage = 'es';
     let isAwaitingResponse = false;
 
-    const nameField = document.getElementById('chatbot-name');
-
-    function toggleOverlay(show) {
-        if (show) {
-            overlay.classList.add('active');
-            overlay.setAttribute('aria-hidden', 'false');
-            openButton.setAttribute('aria-expanded', 'true');
-            setTimeout(() => {
-                if (nameField && introForm.style.display !== 'none') {
+    function setWidgetOpen(open) {
+        if (open) {
+            widget.classList.add('is-open');
+            widget.setAttribute('aria-hidden', 'false');
+            launcher.setAttribute('aria-expanded', 'true');
+            requestAnimationFrame(() => {
+                if (introForm.style.display !== 'none' && nameField) {
                     nameField.focus();
+                } else {
+                    messageInput.focus();
                 }
-            }, 180);
+            });
         } else {
-            overlay.classList.remove('active');
-            overlay.setAttribute('aria-hidden', 'true');
-            openButton.setAttribute('aria-expanded', 'false');
+            widget.classList.remove('is-open');
+            widget.setAttribute('aria-hidden', 'true');
+            launcher.setAttribute('aria-expanded', 'false');
+            if (messageInput) {
+                messageInput.blur();
+            }
+            if (nameField) {
+                nameField.blur();
+            }
+            if (phoneField) {
+                phoneField.blur();
+            }
         }
     }
 
     function updateLanguageUI(lang) {
         currentLanguage = lang;
-        const label = openButton.querySelector('span:last-child');
         if (lang === 'en') {
+            headerSubtitle.textContent = 'Ready to grow your business?';
+            headerHeadline.textContent = 'Share your contact details';
+            introForm.querySelector('label[for="chatbot-name"]').textContent = 'Name';
+            introForm.querySelector('label[for="chatbot-phone"]').textContent = 'Phone';
+            nameField.placeholder = 'Your name';
+            phoneField.placeholder = 'Your phone';
+            introForm.querySelector('button[type="submit"]').textContent = 'Start chat';
             messageInput.placeholder = 'Type your message';
             typingLabel.textContent = 'Assistant is typing…';
             sendButton.setAttribute('aria-label', 'Send');
-            if (label) {
-                label.textContent = 'Assistant';
-            }
+            launcher.setAttribute('aria-label', 'Open assistant');
         } else {
+            headerSubtitle.textContent = '¿Quieres escalar tu negocio?';
+            headerHeadline.textContent = 'Comparte tus datos de contacto';
+            introForm.querySelector('label[for="chatbot-name"]').textContent = 'Nombre';
+            introForm.querySelector('label[for="chatbot-phone"]').textContent = 'Teléfono';
+            nameField.placeholder = 'Tu nombre';
+            phoneField.placeholder = 'Tu teléfono';
+            introForm.querySelector('button[type="submit"]').textContent = 'Comenzar chat';
             messageInput.placeholder = 'Escribe tu mensaje';
             typingLabel.textContent = 'El asistente está escribiendo…';
             sendButton.setAttribute('aria-label', 'Enviar');
-            if (label) {
-                label.textContent = 'Asistente';
-            }
+            launcher.setAttribute('aria-label', 'Abrir asistente');
         }
     }
 
@@ -207,36 +225,43 @@ $companyInitials = strtoupper(substr(preg_replace('/[^A-Za-z]/', '', $Company), 
             });
             const data = await response.json();
             if (data.status !== 'ok') {
-                throw new Error(data.message || 'No se obtuvo respuesta.');
+                throw new Error(data.message || 'El asistente no pudo responder.');
             }
             updateLanguageUI(data.language || currentLanguage);
             renderMessage('assistant', data.reply);
         } catch (error) {
             renderMessage('assistant', error.message);
         } finally {
-            setTyping(false);
             isAwaitingResponse = false;
+            setTyping(false);
+            messageInput.focus();
         }
     }
 
-    openButton.addEventListener('click', () => toggleOverlay(true));
-    closeButton.addEventListener('click', () => toggleOverlay(false));
-    overlay.addEventListener('click', (event) => {
-        if (event.target === overlay) {
-            toggleOverlay(false);
+    launcher.addEventListener('click', () => {
+        const isOpen = widget.classList.contains('is-open');
+        setWidgetOpen(!isOpen);
+    });
+
+    toggleButton.addEventListener('click', () => {
+        setWidgetOpen(false);
+    });
+
+    document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && widget.classList.contains('is-open')) {
+            setWidgetOpen(false);
         }
     });
 
     introForm.addEventListener('submit', (event) => {
         event.preventDefault();
+        const name = nameField.value.trim();
+        const phone = phoneField.value.trim();
         formError.style.display = 'none';
-        const name = introForm.name.value.trim();
-        const phone = introForm.phone.value.trim();
+        formError.textContent = '';
 
         if (!name || !phone) {
-            formError.textContent = currentLanguage === 'en'
-                ? 'Name and phone are required.'
-                : 'El nombre y el teléfono son obligatorios.';
+            formError.textContent = currentLanguage === 'en' ? 'Name and phone are required.' : 'Nombre y teléfono son obligatorios.';
             formError.style.display = 'block';
             return;
         }
@@ -254,5 +279,7 @@ $companyInitials = strtoupper(substr(preg_replace('/[^A-Za-z]/', '', $Company), 
     });
 
     messageInput.addEventListener('input', autoResize);
+
+    updateLanguageUI(currentLanguage);
 })();
 </script>
